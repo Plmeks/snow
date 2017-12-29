@@ -32,7 +32,7 @@ setTimeout(function() {
 		$('#snow').flurry({
 		character: "❄",
 		height: $(window).innerHeight() + 200,
-		speed: 10000,
+		speed: 11000,
 		small: 10,
 		large: 68
 	});
