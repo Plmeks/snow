@@ -10,7 +10,7 @@
 }(document, 'script', 'jquery'));
 
 document.body.insertAdjacentHTML('beforeend', `
-   <div id="snow" style="z-index: 99999; position: fixed; top: 0; left: 0;"></div>
+   <div id="snow" style="position: fixed; top: 0; left: 0;"></div>
 `);
 
 setTimeout(function() {
