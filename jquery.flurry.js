@@ -417,6 +417,8 @@
 
 })(jQuery);
 
+console.log('HERE!');
+
 $('body').flurry({
   character: "❄",
   color: "white",
