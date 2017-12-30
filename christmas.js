@@ -38,7 +38,7 @@ document.body.insertAdjacentHTML('beforeend', `
 				$('#snow').flurry({
 					character: "❄",
 					height: $(window).innerHeight() + 200,
-					speed: 11000,
+					speed: 14000,
 					small: 10,
 					large: 68
 				});
