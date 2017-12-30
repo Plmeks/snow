@@ -10,7 +10,7 @@
 }(document, 'script', 'jquery'));
 
 document.body.insertAdjacentHTML('beforeend', `
-   <div id="snow" style="z-index: 9999; pointer-events: none; position: fixed; top: 0; left: 0; background-color: rgba(0, 10, 255, 0.1)"></div>
+   <div id="snow" style="z-index: 9999; pointer-events: none; position: fixed; top: 0; left: 0; background-color: rgba(0, 10, 255, 0.07)"></div>
 `);
 
 (function touchJquery () {
