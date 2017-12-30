@@ -14,7 +14,7 @@ document.body.insertAdjacentHTML('beforeend', `
 `);
 
 (function touchJquery () {
-	if (!$) {
+	if (!window.jQuery) {
 		window.requestAnimationFrame(touchJquery);
 	} else {
 		$("#snow").height($(window).innerHeight());
