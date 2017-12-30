@@ -17,8 +17,8 @@ document.body.insertAdjacentHTML('beforeend', `
 	if (!window.jQuery) {
 		window.requestAnimationFrame(touchJquery);
 	} else {
-		$("#snow").height($(window).innerHeight());
-		$("#snow").width($(window).innerWidth());
+		$("#snow").height(screen.height);
+		$("#snow").width(screen.width);
 		
 		(function(d, s, id){
 			var js, fjs = d.getElementsByTagName(s)[0];
